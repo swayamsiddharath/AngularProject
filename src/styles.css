@@ -1,0 +1,45 @@
+.btn{
+    border-radius: 3;
+    border-width: 5px;
+    
+}
+
+.option{
+    background-color:lightpink;
+    font-size:20px;
+    padding:10px;
+    margin:3px;
+    border-radius: 15px;
+}
+    #quiz .options input[type=checkbox] {
+        height:15px;
+        width:15px;
+        
+    }
+
+.cursor-pointer{
+    cursor: pointer;
+    
+}
+
+.result-question{
+    background-color:cornsilk;
+    margin:4px;
+    padding:6px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1,.h1{
+        font-size:22px;
+    }
+    h2,.h2{
+        font-size:20px;
+    }
+    h3,.h3{
+        font-size:18px;
+    }
+    .option {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
